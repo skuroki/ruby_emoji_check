@@ -1,4 +1,4 @@
-PATTERN = /[(\p{Emoji}\p{Emoji_Component})&&[:^ascii:]]/
+PATTERN = /[\p{Emoji}\p{Emoji_Component}&&[:^ascii:]]/
 
 STRINGS_WITH_EMOJI = [
   '🍣',
